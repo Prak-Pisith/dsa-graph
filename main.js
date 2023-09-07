@@ -21,6 +21,7 @@ var Graph = /** @class */ (function () {
     return Graph;
 }());
 var socialGraph = new Graph();
+console.log("fresh graph: ".concat(JSON.stringify(socialGraph)));
 socialGraph.addFriend('Nimol', 'Bopha');
 socialGraph.addFriend('Nimol', 'Lihong');
 socialGraph.addFriend('Dary', 'Lihong');

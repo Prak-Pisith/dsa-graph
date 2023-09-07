@@ -28,6 +28,8 @@ class Graph {
 
 const socialGraph = new Graph();
 
+console.log(`fresh graph: ${JSON.stringify(socialGraph)}`);
+
 socialGraph.addFriend('Nimol', 'Bopha');
 socialGraph.addFriend('Nimol', 'Lihong');
 socialGraph.addFriend('Dary', 'Lihong');
